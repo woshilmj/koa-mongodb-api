@@ -25,4 +25,4 @@ app.use(parameter(app))
 routes(app)
 
 
-app.listen(3000, () => {console.log('启动了...')})
+app.listen(3000, () => {console.log('项目启动了...')})
