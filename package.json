@@ -1,0 +1,24 @@
+{
+  "name": "koa-juejin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "cross-env NODE_ENV=production node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "koa": "^2.10.0",
+    "koa-body": "^4.1.1",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.7.5",
+    "nodemon": "^1.19.4"
+  }
+}
